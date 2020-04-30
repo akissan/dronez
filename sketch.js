@@ -8,7 +8,7 @@ let inp = 0;
 
 function preload() {
   load_drone_imgs();
-  drone_img_idle = loadImage('drone_sprites/idle.png');
+  drone_img_idle = loadImage('drone_sprites/Idle.png');
   beacon_img = load_animation('bouy');
   bin_img = load_animation('bin');
 }
