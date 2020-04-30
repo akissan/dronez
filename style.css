@@ -1,0 +1,55 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.controlDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.modeRadio {
+  column-count: 1;
+}
+
+.modeRadio input {
+    display: block;
+  }
+
+.modeButton {
+  height: 60px;
+  width: 60px;
+  border: none;
+  border-radius: 8px;
+  transition-duration: 0.15s;
+}
+
+.modeButton.mode_0 {
+  background-color: #C96440;
+}
+
+.modeButton.mode_1 {
+  background-color: #40A0C0;
+}
+
+.modeButton.mode_2 {
+  background-color: #707581;
+}
+
+.modeButton.mode_0:hover {
+  box-shadow: 0 0 30px #ed8a0040;
+  background-color: #ed8a00;
+}
+
+.modeButton.mode_1:hover {
+  box-shadow: 0 0 30px #a7e8f240;
+  background-color: #48d3e8;
+}
+
+.modeButton.mode_2:hover {
+  box-shadow: 0 0 30px #1d2c3640;
+  background-color: #363d42;
+}
